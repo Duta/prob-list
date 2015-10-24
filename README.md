@@ -26,7 +26,7 @@ Type
 Before going over the monad instance, let's look at the type introduced:
 
 ```haskell
-newtype ProbList a = ProbList { getList :: [(a, rational)] }
+newtype ProbList a = ProbList { getList :: [(a, Rational)] }
 ```
 
 A `newtype` wrapper is used for efficiency, and we simply represent
